@@ -2,3 +2,9 @@ kosmos-2-patch14-224/.DS_Store
 .DS_Store
 .history/*
 hf_tutorial/checkpoints/*
+hf_tutorial/dual_model/*
+hf_tutorial/data/wiki_cn_filtered/*
+*.pyc
+*cache-*
+hf_tutorial/chatbot/*
+hf_tutorial/lora/checkpoint-168/training_args.bin
