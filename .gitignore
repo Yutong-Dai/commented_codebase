@@ -8,3 +8,6 @@ hf_tutorial/data/wiki_cn_filtered/*
 *cache-*
 hf_tutorial/chatbot/*
 hf_tutorial/lora/checkpoint-168/training_args.bin
+hf_tutorial/lora2/*
+hf_tutorial/lora0/*
+hf_tutorial/llama2_lora/*
