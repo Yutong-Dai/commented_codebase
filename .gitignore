@@ -11,3 +11,5 @@ hf_tutorial/lora/checkpoint-168/training_args.bin
 hf_tutorial/lora2/*
 hf_tutorial/lora0/*
 hf_tutorial/llama2_lora/*
+pl_tutorial/lightning_logs/*
+gemini/.env
