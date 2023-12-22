@@ -96,7 +96,7 @@ def get_loss(data):
         out_encoder = encoder(data['input_ids'])
 
         # 抽取图像特征图
-        # [1, 3, 512, 512] -> [1, 4, 64, 64]
+        # [1, 3, 512, 512] -> [1, 8, 64, 64]
         out_vae = vae.encoder(data['pixel_values'])
         out_vae = vae.sample(out_vae)
 
