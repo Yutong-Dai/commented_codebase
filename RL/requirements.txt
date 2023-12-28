@@ -1,0 +1,5 @@
+swig
+stable-baselines3==2.0.0a5
+gymnasium[box2d]
+huggingface_sb3
+pyvirtualdisplay
