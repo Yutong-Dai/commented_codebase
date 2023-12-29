@@ -237,7 +237,9 @@ def main():
     prompts = np.array_split(list(enumerate(prompts)), opt.n_partitions)[opt.partition]
 
     with torch.no_grad(), torch.autocast("cuda"), model.ema_scope():
+        # torch.Size([2, 77, 768])
         uncond = model.get_learned_conditioning(2 * [""])
+        # torch.Size([opt.steps + 1]))
         sigmas = model_wrap.get_sigmas(opt.steps)
 
         for i, prompt in tqdm(prompts, desc="Prompts"):

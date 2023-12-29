@@ -14,3 +14,4 @@ hf_tutorial/llama2_lora/*
 pl_tutorial/lightning_logs/*
 gemini/.env
 langchain/.env
+*.ckpt
